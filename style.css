@@ -1,0 +1,55 @@
+@keyframes floatUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.float-up {
+    animation: floatUp 1.5s ease-out forwards;
+}
+.float-upone {
+    animation: floatUp 1.5s ease-in-out forwards;
+}
+.intro {
+    position: relative;
+    top: 5%;
+    left: 45%;
+    color: white;
+    z-index: 2;
+    font-size: 1.5rem;
+}
+.otherinfo {
+    position: relative;
+    top: 30%;
+    right: -3%;
+    color: white;
+    z-index: 2;
+    font-size: 1.5rem;
+}
+
+
+.intro heading {
+    font-size: 2rem;
+    text-shadow: 1px 1px 5px rgba(0,0,0,1);
+    text-size-adjust: 20%;
+}
+.community {
+    position: relative;
+    top: 25%;
+    right: -3%;
+    color: white;
+    z-index: 2;
+    font-size: 1.5rem;
+}
+.topic-community{
+    position: relative;
+    color: greenyellow;
+    font-size: 1.7rem;
+}
+.devs-community {
+    font-style: italic;
+}
